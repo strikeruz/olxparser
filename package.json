@@ -1,0 +1,26 @@
+{
+  "name": "scrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "get-free-https-proxy": "^2.0.2",
+    "livereload": "^0.9.1",
+    "node-telegram-bot-api": "^0.50.0",
+    "nodemon": "^2.0.4",
+    "puppeteer": "^5.2.1",
+    "puppeteer-extra": "^3.1.13",
+    "puppeteer-extra-plugin-anonymize-ua": "^2.2.12",
+    "puppeteer-extra-plugin-stealth": "^2.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon olx-scrapper.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
