@@ -8,7 +8,6 @@ Parser olx data with nodeJS + pupitter
 
 # Settings
 
-    const TelegramBot = require('node-telegram-bot-api');
     const token = 'TELEGRAMM TOKEN';
     const bot = new TelegramBot(token);
     const chat_id = '@telegram_channel_code';
